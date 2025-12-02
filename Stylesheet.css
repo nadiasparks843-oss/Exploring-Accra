@@ -1,0 +1,199 @@
+body {
+  margin: 0;
+  text-align: center;
+  color: #fedc97;
+  font-family: Advent-Pro;
+  font-size: x-large;
+  background-image: linear-gradient(#3066be, #b4c5e4);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+#Hero {
+  background-image: url(Images/National\ Theatre.jpg);
+  background-size: cover;
+  height: 550px;
+  padding: 50px 100px;
+}
+
+#main-text {
+  background-color: #3066be;
+  width: 300px;
+  margin: 40px auto;
+  border-radius: 300px;
+  padding: 3px 6px;
+  font-size: x-large;
+  color: #3c3744;
+}
+#Top10 {
+  color: #230007;
+}
+
+h2 {
+  background-color: #b4c5e4;
+  width: 300px;
+  margin: 0 auto;
+  border-radius: 300px;
+  font-size: x-large;
+  color: #3c3744;
+  padding-bottom: 0;
+}
+
+#explain {
+  color: #3c3744;
+  padding-top: 10px;
+  font-size: large;
+  width: 700px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
+#clear {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.Card-container1,
+.Card-container2 {
+  display: flex;
+  margin-bottom: 30px;
+}
+
+#Card-1,
+#Card-2,
+#Card-3,
+#Card-4,
+#Card-5,
+#Card-6 {
+  color: #3c3744;
+  margin: 50px;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 20px;
+  width: 350px;
+  height: 350px;
+  padding: 10px, 5px;
+  /* overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+     */
+  font-size: large;
+}
+
+#Card-1:hover {
+  background-image: url(https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExdXlwZDd4enpiOXY0NG1ycmdydjhubWMwaGJmNzMzdDZyMXFvc2M5ZiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/LW355bnDd7YnHhupeb/giphy.gif);
+  height: 450px;
+  width: 350px;
+  background-size: cover;
+  color: #3c3744;
+  font-size: x-large;
+  font-weight: 700;
+}
+
+#Card-2:hover {
+  background-image: url(https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExcTgzdmM1bTBzYWdiZTFuODgxODUxM3ltOGZncmFoMzQyM2Nva29ibSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3ohs87yYiWPxuBQYTe/giphy.gif);
+  height: 450px;
+  width: 350px;
+  background-size: cover;
+  color: #fbfff1;
+  font-size: x-large;
+  font-weight: 700;
+}
+
+#Card-3:hover {
+  background-image: url(https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExNWtnYjRzM3dmczVpc2QwaWttYTg0bTlvbGhxejdiamQ2NTQ4N3A0ZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ToXKNQZXzu6dHD0nAJ/giphy.gif);
+  height: 450px;
+  width: 350px;
+  background-size: cover;
+  color: #230007;
+  font-size: x-large;
+  font-weight: 700;
+}
+
+#Card-4:hover,
+#Card-5:hover,
+#Card-6:hover {
+  height: 450px;
+  width: 350px;
+  font-size: x-large;
+  font-weight: 700;
+  padding: 20px;
+  box-shadow: 0px 0px 20px 3px #fbfff1;
+}
+
+#discover {
+  margin-top: 0;
+  color: #230007;
+  margin-bottom: 0;
+}
+
+.tilt {
+  font-size: xx-large;
+  font-weight: bolder;
+  display: inline-block;
+  animation: tilt 1s infinite ease-in-out alternate;
+  margin-bottom: 10px;
+}
+
+@keyframes tilt {
+  from {
+    transform: rotate(-5deg);
+  }
+  to {
+    transform: rotate(5deg);
+  }
+}
+
+#KNMP-img,
+#MM-img,
+#LB-img,
+#IS-img,
+#JL-img {
+  width: 100px;
+  height: 100px;
+  /* padding-top: 9px; */
+  border-radius: 20px;
+}
+
+#KNMP-img:hover,
+#MM-img:hover,
+#LB-img:hover {
+  width: 100px;
+  height: 100px;
+  padding-top: 9px;
+  border-radius: 20px;
+}
+
+#KNMP-text,
+#MM-text,
+#LB-text {
+  font-size: large;
+  padding-top: 20px;
+  width: 300px;
+}
+
+a {
+  color: inherit;
+}
+
+.footer {
+  /*   
+  background: #3c3744;
+  margin-top: auto;
+  padding: 10px 0;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%; */
+
+  margin-top: auto;
+  background: #3c3744;
+  color: #fedc97;
+  text-align: center;
+  padding: 15px 0;
+}
+
+.link {
+  text-decoration: none;
+  color: #3066be;
+  display: block;
+}
